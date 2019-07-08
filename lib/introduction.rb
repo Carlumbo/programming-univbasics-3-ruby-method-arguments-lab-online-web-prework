@@ -8,8 +8,8 @@ end
 
 def introduction_with_language_optional(name, language)
   if language == nil 
-    ptus
+    puts  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+  else
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  if introduction_with_language_optional(name)
-    puts
-end
+end 
+end 
