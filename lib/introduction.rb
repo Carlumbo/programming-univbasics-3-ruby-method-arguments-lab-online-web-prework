@@ -8,8 +8,8 @@ end
 
 def introduction_with_language_optional(name, language)
   if language == nil 
-    puts  puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  else
+    puts  puts "Hi, my name is #{name} and I am learning to program in Ruby."
+  elsif 
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end 
 end 
